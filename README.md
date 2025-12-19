@@ -7,9 +7,9 @@
 ├── src/   
 │   └── x_o.py
     └── main.py
-├── Dockerfile
-├── README.md
 ├── .gitignore
+├── Dockerfile
+├── READ.ME
 ├── requirements.txt
 ## Локальный запуск
 ##  Запуск с помощью Docker

@@ -12,4 +12,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Команда запуска
-CMD ["python", "x_o.py"]
+CMD ["python", "main.py"]

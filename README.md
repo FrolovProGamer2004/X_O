@@ -14,9 +14,9 @@
 ## Локальный запуск
 ##  Запуск с помощью Docker
 
-1. **Сборка Docker-образа**
-   ```bash
+1. Сборка Docker-образа
    docker build -t x_o_game .
+2.Запуск собранного образа
    docker run -it --rm x_o_game
 # Установка зависимостей
 pip install -r requirements.txt

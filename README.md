@@ -12,6 +12,12 @@
 ├── .gitignore
 ├── requirements.txt
 ## Локальный запуск
+##  Запуск с помощью Docker
+
+1. **Сборка Docker-образа**
+   ```bash
+   docker build -t x_o_game .
+   docker run -it --rm x_o_game
 # Установка зависимостей
 pip install -r requirements.txt
 ## Примеры использования

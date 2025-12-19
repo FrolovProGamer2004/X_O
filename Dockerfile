@@ -12,7 +12,8 @@ WORKDIR /app
 
 # Копируем зависимости отдельно для лучшего кэширования слоев Docker
 COPY requirements.txt .
-RUN pip install --no-cache-dir --upgrade pip && \
+RUN pip install pre-commit
+    pip install --no-cache-dir --upgrade pip && \
     pip install --no-cache-dir -r requirements.txt
 
 # Копируем остальной код
